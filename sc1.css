@@ -74,7 +74,7 @@
     grid-template-rows: repeat(3,1fr);
     background-color: rgb(181, 180, 180);
     width: 80%;
-    height: 1000px;
+    
     justify-items: center;
     place-items: center;
     position: relative;
@@ -105,4 +105,6 @@
     height: 80%;
     width: 80%;
     border-radius: 10px;
+    position: relative;
+    top: 5%;
 }
