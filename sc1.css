@@ -1,0 +1,65 @@
+#Menu{
+    background: rgb(167, 214, 238);
+    border: 1px solid rgb(186, 235, 239);
+    color: black;
+    border-radius: 5px;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    text-align: center;
+
+}
+#Menu :hover{
+    color: black;
+    background: white;
+}
+
+#name{
+    background: rgb(166, 203, 233);
+    border: 1px solid rgb(168, 241, 168);
+    color:black;
+    
+    position: absolute;
+    top: 6px;
+    right: 30px;
+    text-align: center;
+    
+
+}
+#name a{
+    text-decoration: none;
+    border-radius: 5px;
+}
+#name :hover{
+    color: black;
+    background: white;
+    
+
+}
+
+#cart{
+    background: rgb(161, 193, 238);
+    border: 1px solid rgb(169, 230, 169);
+    color: black;
+    border-radius: 5px;
+    position: absolute;
+    top: 6px;
+    right: 125px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+#cart a{
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#cart :hover{
+    color: black;
+    background: white;
+}
+
+#supermarket{
+    background: #00ff04 ;
+    border-radius: 5px;
+}
