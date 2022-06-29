@@ -23,6 +23,7 @@
     top: 6px;
     right: 30px;
     text-align: center;
+    cursor: pointer;
     
 
 }
@@ -47,6 +48,7 @@
     right: 125px;
     text-align: center;
     text-decoration: none;
+    cursor: pointer;
     
 }
 #cart a{
@@ -62,4 +64,45 @@
 #supermarket{
     background: #00ff04 ;
     border-radius: 5px;
+}
+
+
+/* home page container */
+.homepageitems{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    background-color: rgb(181, 180, 180);
+    width: 80%;
+    height: 1000px;
+    justify-items: center;
+    place-items: center;
+    position: relative;
+    left: 10%;
+    row-gap: 10px;
+    column-gap: 10px;
+    border-radius: 10px;
+
+    
+    
+    
+
+}
+
+.item{
+    background-color: white;
+    border-radius: 5px;
+    height: 90%;
+    width: 90%;
+    justify-self: center;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+.item img{
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
 }
