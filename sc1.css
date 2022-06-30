@@ -24,6 +24,8 @@
     right: 30px;
     text-align: center;
     cursor: pointer;
+    padding-left: 1%;
+    padding-right: 1%;
     
 
 }
@@ -49,6 +51,8 @@
     text-align: center;
     text-decoration: none;
     cursor: pointer;
+    padding-left: 1%;
+    padding-right: 1%;
     
 }
 #cart a{
@@ -81,7 +85,7 @@
     left: 10%;
     row-gap: 10px;
     column-gap: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 
     
     
@@ -90,8 +94,9 @@
 }
 
 .item{
+    margin-bottom: 1%;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 15px;
     height: 90%;
     width: 90%;
     justify-self: center;
@@ -104,7 +109,118 @@
 .item img{
     height: 80%;
     width: 80%;
-    border-radius: 10px;
+    border-radius: 15px;
     position: relative;
     top: 5%;
+    margin-bottom: 0.5%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.navbar .Menu{
+    
+    text-align: left;
+    border-radius: 15px;
+    background-color: rgb(255, 115, 0);
+    padding-top: 3px; padding-bottom: 3px;
+    padding-left: 10px; padding-right: 10px;
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+}
+
+.navbar .logo{
+
+    justify-content: center;
+    text-align: center;
+    background: aqua;
+}
+.navbar .nav{
+    flex: 0.8; 
+    text-align: right;
+
+}
+.navbar .nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.navbar .nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 115, 0);
+    padding-top: 3px; padding-bottom: 3px;
+    padding-left: 10px; padding-right: 10px;
+    
+}
+
+.navbar .nav ul li a{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+}
+
+.search {
+    flex: auto;
+    padding-left: 25%;
+}
+.search .inp
+{
+    display: inline-block;
+    size: 50%;
+    
+}
+.search .inp input[type=text]{
+    size: 100px;
+    border-radius: 30px;
+    font-size: x-large;
+    background-color: white;
+
+}
+.search .seabtn{
+    display: inline-block;
+}
+
+.search .seabtn input[type=button]{
+    border-radius: 30px;
+    font-size: x-large;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    border: none;
+    padding-top: 3px; padding-bottom: 3px;
+    padding-left: 10px; padding-right: 10px;
+}
+
+.homepageitems .item .name {
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.homepageitems .item .name p{
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(0, 5, 0);
+}
+
+.homepageitems .item .cost{
+    background-color: rgb(249, 139, 5);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.homepageitems .item .cost p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+
 }
