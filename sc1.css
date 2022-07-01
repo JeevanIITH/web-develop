@@ -76,7 +76,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(3,1fr);
-    background-color: rgb(181, 180, 180);
+    background-color: rgb(223, 221, 221);
     width: 80%;
     
     justify-items: center;
@@ -106,6 +106,8 @@
 
 }
 
+
+
 .item img{
     height: 80%;
     width: 80%;
@@ -113,6 +115,9 @@
     position: relative;
     top: 5%;
     margin-bottom: 0.5%;
+}
+.item :hover{
+    transform: translateY(-5px);
 }
 
 .navbar{
@@ -155,6 +160,10 @@
     padding-top: 3px; padding-bottom: 3px;
     padding-left: 10px; padding-right: 10px;
     
+}
+.navbar .nav ul li :hover{
+    
+    color: black;
 }
 
 .navbar .nav ul li a{
